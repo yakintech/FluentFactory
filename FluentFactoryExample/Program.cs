@@ -11,7 +11,6 @@ namespace FluentFactoryExample
         static void Main(string[] args)
         {
             var kisi = Factory<Kisi>.Init(new Kisi()).GiveAValue(x => x.Ad, "Çağatay").Take();
-
         }
     }
 }
